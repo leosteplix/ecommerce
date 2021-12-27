@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = () => {
   return (
-    <div className="divide-y h-[350px] w-[224px] mt-10 bg-white">
+    <div className="divide-y h-[330px] w-[224px] mt-10 bg-white">
       <div className="h-[204px] w-[104px] py-3 mx-auto ">
         <div className="relative h-[100%]  ">
           <Image
