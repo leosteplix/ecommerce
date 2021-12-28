@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const Navbar = () => {
+  let items=2
   return (
     <div className="navbar bg-[#fff159] h-[100px] ">
       <div className="container mx-auto pt-3 flex justify-center">
@@ -89,7 +90,7 @@ const Navbar = () => {
                 objectFit="cover"
               />
             </button>
-              <p className="absolute left-7 top-0">4</p>
+              <p className="absolute left-7 top-0">{items}</p>
              
             </div>
             </div>
