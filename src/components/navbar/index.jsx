@@ -81,12 +81,16 @@ const Navbar = () => {
             <div className="mx-[12px]">Mis compras</div>
             <div className="">
             <div className="relative h-[20px] w-[24px] ">
-              <Image
+            <button>
+               <Image
                 src="/../public/assets/logos/car.svg"
                 alt="logo"
                 layout="fill"
                 objectFit="cover"
               />
+            </button>
+              <p className="absolute left-7 top-0">4</p>
+             
             </div>
             </div>
           </div>

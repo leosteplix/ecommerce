@@ -5,7 +5,7 @@ const Card = ({ key, producto }) => {
   const [isShown, setIsShown] = useState(false);
   return (
     <div
-      className="divide-y h-[330px] w-[224px]  bg-white"
+      className={`rounded ${isShown?"min-h-[340px] shadow-xl": "h-[320px]"} divide-y w-[224px] bg-white `}
       onMouseEnter={() => setIsShown(true)}
       onMouseLeave={() => setIsShown(false)}
     >
