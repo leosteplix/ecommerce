@@ -7,23 +7,23 @@ import SliderInit from "../components/SliderInit";
 export default function Home() {
     let productos=[
         {
-          marca:"motorola",
+          marca:"motorola k45 con 5 meses de garantia ",
           imagen:"/../public/assets/productos/celular.png",
           precio:"20.999",
           envioGratis:true,
         },
         {
-          marca:"motorola k44",
+          marca:"motorola k45 con 5 meses de garantia k44",
           imagen:"/../public/assets/productos/iphone2.png",
           precio:"22.999",
           envioGratis:false,
         }, {
-          marca:"motorola",
+          marca:"motorola k45 con 5 meses de garantia",
           imagen:"/../public/assets/productos/celular.png",
           precio:"50.999",
           envioGratis:false,
         }, {
-          marca:"motorola",
+          marca:"motorola k45 con 5 meses de garantia",
           imagen:"/../public/assets/productos/iphone2.png",
           precio:"20.999",
           envioGratis:false,
@@ -33,7 +33,7 @@ export default function Home() {
           precio:"60.999",
           envioGratis:true,
         }, {
-          marca:"motorola",
+          marca:"motorola k45 con 5 meses de garantia",
           imagen:"/../public/assets/productos/samsung.png",
           precio:"20.100",
           envioGratis:true
@@ -43,23 +43,23 @@ export default function Home() {
 
         let productos2=[
             {
-              marca:"xiaomi",
+              marca:"xiaomi g45 sim 32gb ",
               imagen:"/../public/assets/productos2/auris2.png",
               precio:"4.999",
               envioGratis:true,
             },
             {
-              marca:"xiaomi k44",
+              marca:"xiaomi g45 sim 32gb  k44",
               imagen:"/../public/assets/productos2/auris4.png",
               precio:"3.999",
               envioGratis:false,
             }, {
-              marca:"xiaomi",
+              marca:"xiaomi g45 sim 32gb ",
               imagen:"/../public/assets/productos2/auris3.png",
               precio:"5.999",
               envioGratis:false,
             }, {
-              marca:"xiaomi",
+              marca:"xiaomi g45 sim 32gb ",
               imagen:"/../public/assets/productos2/auris4.png",
               precio:"8.999",
               envioGratis:false,
@@ -69,7 +69,7 @@ export default function Home() {
               precio:"60.999",
               envioGratis:true,
             }, {
-              marca:"xiaomi",
+              marca:"xiaomi g45 sim 32gb ",
               imagen:"/../public/assets/productos2/auris2.png",
               precio:"2.100",
               envioGratis:true
@@ -78,7 +78,7 @@ export default function Home() {
             ]
             let ofertas=[
                 {
-                  marca:"xiaomi",
+                  marca:"xiaomi g45 sim 32gb",
                   imagen:"/../public/assets/ofertas/notebook.webp",
                   precio:"4.999",
                   envioGratis:true,
@@ -89,7 +89,7 @@ export default function Home() {
                   precio:"3.999",
                   envioGratis:false,
                 }, {
-                  marca:"xiaomi",
+                  marca:"xiaomi g45 sim 32gb",
                   imagen:"/../public/assets/ofertas/notebook.webp",
                   precio:"5.999",
                   envioGratis:false,
