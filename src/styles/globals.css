@@ -32,6 +32,7 @@ body {
   .container{
     @apply mx-[200px]
   }
+  
   /* GRADIENT CLASSES START */
   .gradient--blue {
     @apply bg-gradient-to-tl from-[color:var(--from-gradient-blue-color)] to-[color:var(--to-gradient-blue-color)];
