@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Descubri from "../components/CardDescubri";
 import Carrousel from "../components/Carrousel";
 import Navbar from "../components/navbar";
 import SliderInit from "../components/SliderInit";
@@ -13,7 +14,7 @@ export default function Home() {
         },
         {
           marca:"motorola k44",
-          imagen:"/../public/assets/productos/iphone.png",
+          imagen:"/../public/assets/productos/iphone2.png",
           precio:"22.999",
           envioGratis:false,
         }, {
@@ -115,10 +116,15 @@ export default function Home() {
            <Navbar/>
             
             <SliderInit/>
+            
             <Carrousel productos={productos2} titulo="Basado en tu última visita" subtitulo="Ver Historial"/>
             <Carrousel productos={productos} titulo="Relacionado con tus visitas en Celulares y Teléfonos" subtitulo="Ver Historial"/>
+            <div className="flex justify-center">
+                <Descubri titulo="LO ULTIMO EN CELULARES" subtitulo1={"HASTA 9 CUOTAS "} subtitulo2={" SIN INTERES"} imagen={"/../public/assets/descubri/celular.webp"}/>
+                <Descubri titulo="Herramientas" subtitulo1={"HASTA  "} subtitulo2={" 40% OFF"} imagen={"/../public/assets/descubri/celular.webp"}/>
+                
+            </div>
             <Carrousel productos={ofertas} titulo="Ofertas" subtitulo="Ver todas"/>
-
         </>
     );
 }
